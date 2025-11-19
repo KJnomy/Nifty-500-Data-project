@@ -32,9 +32,10 @@ def get_stock_data(symbol: str, start: str = "2020-01-01", end: str = None):
 
 '''
 now for starting the Fastapi you have to type a command in new terminal as
-uvicorn {filename}:app --reload      
+uvicorn main:app --reload      
 {filename} is name which you have saved of the file
  
 '''
+
 
 
